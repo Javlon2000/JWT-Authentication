@@ -13,4 +13,4 @@ Steps you need to do:
   If everything is fine, you will get new JSON Web Token.
   
 4) Echo:
-  Verify with new JSON Web token.
+  Verify with new JSON Web Token, using "accessToken" header. 
