@@ -1,6 +1,7 @@
 # JWT-Authentication
 This is the JWT Authentication program, used PostgreSQL database, Gin web framework, GORM library, WebSocket. 
 Steps you need to do:
+
 1) Sign-up:
   POST your email, if your email exits in my database, you will get 400-Bad Request. 
   If not, then you will get 200-OK and also I will send you password in UUID form.
