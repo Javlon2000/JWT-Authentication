@@ -11,7 +11,7 @@ var DB *gorm.DB
 
 func ConnectDatabase() {
   
-  db, err := gorm.Open("postgres", "host=localhost port=5432 user=javlon dbname=messaging sslmode=disable password=therichestman8")
+  db, err := gorm.Open("postgres", "host=localhost port=5432 user= dbname=messaging sslmode=disable password=")
 
   if err != nil {
     panic("Failed to connect to database!")
